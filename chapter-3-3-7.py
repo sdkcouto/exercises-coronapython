@@ -9,49 +9,40 @@
 # • Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
 
 # Exercise 3-6
-presidents = ["Obama", "Lula", "Merkel"]
-print("Hey, " + presidents[0] + " i am making dinner, please come!")
-print("Hey, " + presidents[1] + " i am making dinner, please come!")
-print("Hey, " + presidents[2] + " i am making dinner, please come!")
+presidents = ["Lula", "Bolsonaro", "Putin"]
+print("hey "+ presidents[0] + ", i am making dinner, pleae come?")
+print("hey "+ presidents[1] + ", i am making dinner, pleae come?")
+print("hey "+ presidents[2] + ", i am making dinner, pleae come?")
 
-print("Hey, " + presidents[2] + " can't make it.")
+print("Hey " + presidents[2] + " can't make it.")
 
 presidents.remove(presidents[2])
-presidents.insert(2,"Macron")
+presidents.insert(2,"Temer")
 
-print("Hey, " + presidents[0] + " i am making dinner, please come!")
-print("Hey, " + presidents[1] + " i am making dinner, please come!")
-print("Hey, " + presidents[2] + " i am making dinner, please come!")
-
-print("I found a bigger table!")
-presidents.insert(0,"Lincoln")
-presidents.insert(1,"Fernando")
-presidents.append("Boris")
-
-print("Hey, " + presidents[0] + " i am making dinner, please come!")
-print("Hey, " + presidents[1] + " i am making dinner, please come!")
-print("Hey, " + presidents[2] + " i am making dinner, please come!")
-print("Hey, " + presidents[3] + " i am making dinner, please come!")
-print("Hey, " + presidents[4] + " i am making dinner, please come!")
-print("Hey, " + presidents[5] + " i am making dinner, please come!")
-
-print("Sorry, my table will not arrive in time. I can only invite two people")
-
+print("Hey " + presidents[0] + " i am making dinner, please come!")
+print("Hey " + presidents[1] + " i am making dinner, please come!")
+print("Hey " + presidents[2] + " i am making dinner, please come!")
+print("I found a bigger table")
+presidents.insert(0,"FHC")
+presidents.insert(1,"Dilma")
+presidents.append("Collor")
+print("Hey " + presidents[0] + " i am making dinner, please come!")
+print("Hey " + presidents[1] + " i am making dinner, please come!")
+print("Hey " + presidents[2] + " i am making dinner, please come!")
+print("Hey " + presidents[3] + " i am making dinner, please come!")
+print("Hey " + presidents[4] + " i am making dinner, please come!")
+print("Hey " + presidents[5] + " i am making dinner, please come!")
+print("Sorry, i coulndt get the table. I can only invite two people")
 wontcome = presidents.pop()
-print("Sorry, " + wontcome + " don't come, i dont have space!")
-
+print("Sorry " + wontcome + ", i dont have space for you!")
 wontcome = presidents.pop()
-print("Sorry, " + wontcome + " don't come, i dont have space!")
-
+print("Sorry " + wontcome + ", i dont have space for you!")
 wontcome = presidents.pop()
-print("Sorry, " + wontcome + " don't come, i dont have space!")
-
+print("Sorry " + wontcome + ", i dont have space for you!")
 wontcome = presidents.pop()
-print("Sorry, " + wontcome + " don't come, i dont have space!")
-
-print("Hey, " + presidents[0] + " i am making dinner, please come!")
-print("Hey, " + presidents[1] + " i am making dinner, please come!")
-
+print("Sorry " + wontcome + ", i dont have space for you!")
+print("Hey " + presidents[1] + ", you can come!")
+print("Hey " + presidents[0] + ", you can come!")
 del presidents[1]
 del presidents[0]
 print(presidents)

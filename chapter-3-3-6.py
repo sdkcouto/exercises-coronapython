@@ -11,28 +11,26 @@
 # • Print a new set of invitation messages, one for each person in your list. 
 
 # Exercise 3-5
-presidents = ["Obama", "Lula", "Merkel"]
-print("Hey, " + presidents[0] + " i am making dinner, please come!")
-print("Hey, " + presidents[1] + " i am making dinner, please come!")
-print("Hey, " + presidents[2] + " i am making dinner, please come!")
+presidents = ["Lula", "Bolsonaro", "Putin"]
+print("hey "+ presidents[0] + ", i am making dinner, pleae come?")
+print("hey "+ presidents[1] + ", i am making dinner, pleae come?")
+print("hey "+ presidents[2] + ", i am making dinner, pleae come?")
 
-print("Hey, " + presidents[2] + " can't make it.")
+print("Hey " + presidents[2] + " can't make it.")
 
 presidents.remove(presidents[2])
-presidents.insert(2,"Macron")
+presidents.insert(2,"Temer")
 
-print("Hey, " + presidents[0] + " i am making dinner, please come!")
-print("Hey, " + presidents[1] + " i am making dinner, please come!")
-print("Hey, " + presidents[2] + " i am making dinner, please come!")
-
-print("I found a bigger table!")
-presidents.insert(0,"Lincoln")
-presidents.insert(1,"Fernando")
-presidents.append("Boris")
-
-print("Hey, " + presidents[0] + " i am making dinner, please come!")
-print("Hey, " + presidents[1] + " i am making dinner, please come!")
-print("Hey, " + presidents[2] + " i am making dinner, please come!")
-print("Hey, " + presidents[3] + " i am making dinner, please come!")
-print("Hey, " + presidents[4] + " i am making dinner, please come!")
-print("Hey, " + presidents[5] + " i am making dinner, please come!")
+print("Hey " + presidents[0] + " i am making dinner, please come!")
+print("Hey " + presidents[1] + " i am making dinner, please come!")
+print("Hey " + presidents[2] + " i am making dinner, please come!")
+print("I found a bigger table")
+presidents.insert(0,"FHC")
+presidents.insert(1,"Dilma")
+presidents.append("Collor")
+print("Hey " + presidents[0] + " i am making dinner, please come!")
+print("Hey " + presidents[1] + " i am making dinner, please come!")
+print("Hey " + presidents[2] + " i am making dinner, please come!")
+print("Hey " + presidents[3] + " i am making dinner, please come!")
+print("Hey " + presidents[4] + " i am making dinner, please come!")
+print("Hey " + presidents[5] + " i am making dinner, please come!")
