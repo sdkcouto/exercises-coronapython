@@ -7,20 +7,20 @@
 # • Don’t use blank lines excessively in your program files.
 
 # Exercise 4-7
-numbers = range(3,31,3)
-for i in numbers:
-    print(str(i))
+number = range(3,30,3)
+for n in number:
+    print(n)
 
 # Exercise 4-9
-complist = [i**3 for i in range(1,11)]
-print(complist)
+cubes = [value**3 for value in range(1,11)]
+print(cubes)
 
 # Exercise 4-12
-my_foods = ['pizza', 'falafel', 'carrot cake']
-friend_foods = my_foods[:]
+pizza = ["Tuna", "Pepperoni", "Brazilian"]
+friend_foods = pizza[:]
 
 print("My favorite pizzas are: ")
-for i in my_foods:
+for i in pizza:
     print(i)
 
 print("My friend’s favorite foods are: ")
