@@ -12,6 +12,6 @@ for i in foods:
 new_food=["batata frita", "vegetais"]
 for n in range(0,3):
     new_food.append(foods[n])
-    
+
 for n in new_food:
     print(n)
