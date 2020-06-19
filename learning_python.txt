@@ -1,0 +1,3 @@
+In Python you can create fun codes.
+In Python you can make mathematical opereations.
+In Python you can make functions.
